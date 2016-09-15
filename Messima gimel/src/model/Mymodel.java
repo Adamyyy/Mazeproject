@@ -222,7 +222,7 @@ controller.displaycross(toreturn,firstnumber,secondnumber);
 	@Override
 	public void exit() {
 	for (Thread t: threadarray) {
-	toString().intern();
+	t.interrupt();
 	}
 		
 	}
