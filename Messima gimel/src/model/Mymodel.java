@@ -33,7 +33,7 @@ import algorithms.search.Solution;
 import algorithms.search.State;
 import controller.Controller;
 
-
+//check forgithub
 /**
  * The class that implements the model interface for the MVC mechanism
  * 
