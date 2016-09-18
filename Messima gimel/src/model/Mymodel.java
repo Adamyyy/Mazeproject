@@ -241,6 +241,8 @@ controller.displaycross(toreturn,firstnumber,secondnumber);
 			
 			 Path path = Paths.get(file.getAbsolutePath());
 			 byte[] data = Files.readAllBytes(path);
+				InputStream in=new MyDecompressorInputStream(new FileInputStream(filename));
+				in.read(data);
 			 Maze3d newmaze= new Maze3d(data);
 			 mazes.put(mazename, newmaze);
 			 controller.displayLoadMaze(filename + "Has been saved" + " under the name " + mazename);			 
