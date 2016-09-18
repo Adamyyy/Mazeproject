@@ -90,13 +90,13 @@ public class CLI extends Thread {
 	{
 		System.out.println("Please enter the commnad with no capital letters,seperate words with 1 space (commands are on the left parameters in <>)");
 		System.out.println("Command dirpath <path>");
-		System.out.println("Command generatemaze <name> <floors> <rows> <cols> <Simple/Growing>");
+		System.out.println("Command generatemaze <name> <floors> <rows> <cols>");
 		System.out.println("Command display <name>");
-		System.out.println("Command displaycross <cross (X/Y/Z)> <index> <name>");
+		System.out.println("Command displaycross <index> <x/y/z> <name>");
 		System.out.println("Command savemaze <name> <file name>");
 		System.out.println("command load <file name> <name> ");
-		System.out.println("command solvemaze solve <name> <BFS/DFS>");
-		System.out.println("Command displaysolution: display_solution <name>");
+		System.out.println("command solvemaze <name> <BFS/DFS>");
+		System.out.println("Command displaysolution: <name>");
 		System.out.println("Command Exit: Bye!");
 
 	}
